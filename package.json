@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "react简单示例",
   "scripts": {
-    "dev": "webpack --watch --progress",
+    "build": "webpack --progress",
     "server": "node webpack.server.js"
   },
   "author": "wannasky",
