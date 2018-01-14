@@ -1,0 +1,12 @@
+@import "../../sass/mixins";
+@import "../../sass/variables";
+
+.header{
+    @include display-flex();
+    @include align-items(center);
+    @include justify-content(center);
+    color: $light;
+    font-size: 2rem;
+    height: $header-bar-height;
+    background-color: $default-bar;
+}
